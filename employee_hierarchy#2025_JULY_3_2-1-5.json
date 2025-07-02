@@ -1,0 +1,501 @@
+{
+  "id" : 789,
+  "name" : "Rama",
+  "city" : "chennai",
+  "state" : "Tamilnadu",
+  "category" : "Director",
+  "managerId" : 0,
+  "salary" : 150000.0,
+  "doj" : "2022-10-25",
+  "reports" : [ {
+    "id" : 456,
+    "name" : "Shivam",
+    "city" : "bangalore",
+    "state" : "karnataka",
+    "category" : "manager",
+    "managerId" : 789,
+    "salary" : 75000.0,
+    "doj" : "2022-07-05",
+    "reports" : [ {
+      "id" : 123,
+      "name" : "Ravi",
+      "city" : "hyderabad",
+      "state" : "Telangana",
+      "category" : "employee",
+      "managerId" : 456,
+      "salary" : 45000.0,
+      "doj" : "2023-06-04",
+      "reports" : [ ]
+    }, {
+      "id" : 1011,
+      "name" : "Krishna",
+      "city" : "hyderabad",
+      "state" : "telangana",
+      "category" : "employee",
+      "managerId" : 456,
+      "salary" : 50000.0,
+      "doj" : "2021-03-07",
+      "reports" : [ ]
+    }, {
+      "id" : 1415,
+      "name" : "Manoj",
+      "city" : "mangalore",
+      "state" : "karnataka",
+      "category" : "employee",
+      "managerId" : 456,
+      "salary" : 95000.0,
+      "doj" : "2018-06-09",
+      "reports" : [ ]
+    } ]
+  }, {
+    "id" : 1213,
+    "name" : "Sreekanth",
+    "city" : "mumbai",
+    "state" : "Maharastra",
+    "category" : "employee",
+    "managerId" : 789,
+    "salary" : 60000.0,
+    "doj" : "2019-08-08",
+    "reports" : [ ]
+  }, {
+    "id" : 2000,
+    "name" : "Praveen",
+    "city" : "hyderabad",
+    "state" : "telangana",
+    "category" : "employee",
+    "managerId" : 789,
+    "salary" : 50000.0,
+    "doj" : "2021-03-07",
+    "reports" : [ {
+      "id" : 3000,
+      "name" : "Kumar Ravi",
+      "city" : "hyderabad",
+      "state" : "Telangana",
+      "category" : "employee",
+      "managerId" : 2000,
+      "salary" : 45000.0,
+      "doj" : "2023-06-04",
+      "reports" : [ ]
+    }, {
+      "id" : 3001,
+      "name" : "Shivam D",
+      "city" : "bangalore",
+      "state" : "karnataka",
+      "category" : "manager",
+      "managerId" : 2000,
+      "salary" : 75000.0,
+      "doj" : "2022-07-05",
+      "reports" : [ ]
+    }, {
+      "id" : 3002,
+      "name" : "A Krishna",
+      "city" : "hyderabad",
+      "state" : "telangana",
+      "category" : "employee",
+      "managerId" : 2000,
+      "salary" : 50000.0,
+      "doj" : "2021-03-07",
+      "reports" : [ ]
+    }, {
+      "id" : 3003,
+      "name" : "B Sreekanth",
+      "city" : "mumbai",
+      "state" : "Maharastra",
+      "category" : "employee",
+      "managerId" : 2000,
+      "salary" : 60000.0,
+      "doj" : "2019-08-08",
+      "reports" : [ ]
+    }, {
+      "id" : 3004,
+      "name" : "N Manoj",
+      "city" : "mangalore",
+      "state" : "karnataka",
+      "category" : "employee",
+      "managerId" : 2000,
+      "salary" : 95000.0,
+      "doj" : "2018-06-09",
+      "reports" : [ ]
+    }, {
+      "id" : 3005,
+      "name" : "Ravi Sagar",
+      "city" : "hyderabad",
+      "state" : "Telangana",
+      "category" : "employee",
+      "managerId" : 2000,
+      "salary" : 45000.0,
+      "doj" : "2023-06-04",
+      "reports" : [ ]
+    }, {
+      "id" : 3006,
+      "name" : "Patel Shivam",
+      "city" : "bangalore",
+      "state" : "karnataka",
+      "category" : "manager",
+      "managerId" : 2000,
+      "salary" : 75000.0,
+      "doj" : "2022-07-05",
+      "reports" : [ ]
+    }, {
+      "id" : 3007,
+      "name" : "Jai Krishna",
+      "city" : "hyderabad",
+      "state" : "telangana",
+      "category" : "employee",
+      "managerId" : 2000,
+      "salary" : 50000.0,
+      "doj" : "2021-03-07",
+      "reports" : [ ]
+    }, {
+      "id" : 3008,
+      "name" : "Sreekanth M",
+      "city" : "mumbai",
+      "state" : "Maharastra",
+      "category" : "employee",
+      "managerId" : 2000,
+      "salary" : 60000.0,
+      "doj" : "2019-08-08",
+      "reports" : [ ]
+    }, {
+      "id" : 3009,
+      "name" : "Manoj S",
+      "city" : "mangalore",
+      "state" : "karnataka",
+      "category" : "employee",
+      "managerId" : 2000,
+      "salary" : 95000.0,
+      "doj" : "2018-06-09",
+      "reports" : [ ]
+    } ]
+  }, {
+    "id" : 2001,
+    "name" : "Prashanth",
+    "city" : "mumbai",
+    "state" : "Maharastra",
+    "category" : "employee",
+    "managerId" : 789,
+    "salary" : 60000.0,
+    "doj" : "2019-08-08",
+    "reports" : [ {
+      "id" : 4000,
+      "name" : "Rajesh Kumar",
+      "city" : "hyderabad",
+      "state" : "Telangana",
+      "category" : "employee",
+      "managerId" : 2001,
+      "salary" : 45000.0,
+      "doj" : "2023-06-04",
+      "reports" : [ ]
+    }, {
+      "id" : 4001,
+      "name" : "Lakshmi",
+      "city" : "bangalore",
+      "state" : "karnataka",
+      "category" : "manager",
+      "managerId" : 2001,
+      "salary" : 75000.0,
+      "doj" : "2022-07-05",
+      "reports" : [ ]
+    }, {
+      "id" : 4002,
+      "name" : "Sai Kiran",
+      "city" : "hyderabad",
+      "state" : "telangana",
+      "category" : "employee",
+      "managerId" : 2001,
+      "salary" : 50000.0,
+      "doj" : "2021-03-07",
+      "reports" : [ ]
+    }, {
+      "id" : 4003,
+      "name" : "Kumar Sanu",
+      "city" : "mumbai",
+      "state" : "Maharastra",
+      "category" : "employee",
+      "managerId" : 2001,
+      "salary" : 60000.0,
+      "doj" : "2019-08-08",
+      "reports" : [ ]
+    }, {
+      "id" : 4004,
+      "name" : "Narendra",
+      "city" : "mangalore",
+      "state" : "karnataka",
+      "category" : "employee",
+      "managerId" : 2001,
+      "salary" : 95000.0,
+      "doj" : "2018-06-09",
+      "reports" : [ ]
+    }, {
+      "id" : 4005,
+      "name" : "Ravi Sagar 2",
+      "city" : "hyderabad",
+      "state" : "Telangana",
+      "category" : "employee",
+      "managerId" : 2001,
+      "salary" : 45000.0,
+      "doj" : "2023-06-04",
+      "reports" : [ ]
+    }, {
+      "id" : 4006,
+      "name" : "Patel Shivam 2",
+      "city" : "bangalore",
+      "state" : "karnataka",
+      "category" : "manager",
+      "managerId" : 2001,
+      "salary" : 75000.0,
+      "doj" : "2022-07-05",
+      "reports" : [ ]
+    }, {
+      "id" : 4007,
+      "name" : "Jai Krishna 2",
+      "city" : "hyderabad",
+      "state" : "telangana",
+      "category" : "employee",
+      "managerId" : 2001,
+      "salary" : 50000.0,
+      "doj" : "2021-03-07",
+      "reports" : [ ]
+    }, {
+      "id" : 4008,
+      "name" : "Sreekanth M 2",
+      "city" : "mumbai",
+      "state" : "Maharastra",
+      "category" : "employee",
+      "managerId" : 2001,
+      "salary" : 60000.0,
+      "doj" : "2019-08-08",
+      "reports" : [ ]
+    }, {
+      "id" : 4009,
+      "name" : "Manoj S 2",
+      "city" : "mangalore",
+      "state" : "karnataka",
+      "category" : "employee",
+      "managerId" : 2001,
+      "salary" : 95000.0,
+      "doj" : "2018-06-09",
+      "reports" : [ ]
+    } ]
+  }, {
+    "id" : 2002,
+    "name" : "Priya",
+    "city" : "mangalore",
+    "state" : "karnataka",
+    "category" : "employee",
+    "managerId" : 789,
+    "salary" : 95000.0,
+    "doj" : "2018-06-09",
+    "reports" : [ {
+      "id" : 5000,
+      "name" : "Kumar Ravi 3",
+      "city" : "hyderabad",
+      "state" : "Telangana",
+      "category" : "employee",
+      "managerId" : 2002,
+      "salary" : 45000.0,
+      "doj" : "2023-06-04",
+      "reports" : [ ]
+    }, {
+      "id" : 5001,
+      "name" : "Shivam D 3",
+      "city" : "bangalore",
+      "state" : "karnataka",
+      "category" : "manager",
+      "managerId" : 2002,
+      "salary" : 75000.0,
+      "doj" : "2022-07-05",
+      "reports" : [ ]
+    }, {
+      "id" : 5002,
+      "name" : "A Krishna 3",
+      "city" : "hyderabad",
+      "state" : "telangana",
+      "category" : "employee",
+      "managerId" : 2002,
+      "salary" : 50000.0,
+      "doj" : "2021-03-07",
+      "reports" : [ ]
+    }, {
+      "id" : 5003,
+      "name" : "B Sreekanth 3",
+      "city" : "mumbai",
+      "state" : "Maharastra",
+      "category" : "employee",
+      "managerId" : 2002,
+      "salary" : 60000.0,
+      "doj" : "2019-08-08",
+      "reports" : [ ]
+    }, {
+      "id" : 5004,
+      "name" : "N Manoj 3",
+      "city" : "mangalore",
+      "state" : "karnataka",
+      "category" : "employee",
+      "managerId" : 2002,
+      "salary" : 95000.0,
+      "doj" : "2018-06-09",
+      "reports" : [ ]
+    }, {
+      "id" : 5005,
+      "name" : "Ravi Sagar 3",
+      "city" : "hyderabad",
+      "state" : "Telangana",
+      "category" : "employee",
+      "managerId" : 2002,
+      "salary" : 45000.0,
+      "doj" : "2023-06-04",
+      "reports" : [ ]
+    }, {
+      "id" : 5006,
+      "name" : "Patel Shivam 3",
+      "city" : "bangalore",
+      "state" : "karnataka",
+      "category" : "manager",
+      "managerId" : 2002,
+      "salary" : 75000.0,
+      "doj" : "2022-07-05",
+      "reports" : [ ]
+    }, {
+      "id" : 5007,
+      "name" : "Jai Krishna 3",
+      "city" : "hyderabad",
+      "state" : "telangana",
+      "category" : "employee",
+      "managerId" : 2002,
+      "salary" : 50000.0,
+      "doj" : "2021-03-07",
+      "reports" : [ ]
+    }, {
+      "id" : 5008,
+      "name" : "Sreekanth M 3",
+      "city" : "mumbai",
+      "state" : "Maharastra",
+      "category" : "employee",
+      "managerId" : 2002,
+      "salary" : 60000.0,
+      "doj" : "2019-08-08",
+      "reports" : [ ]
+    }, {
+      "id" : 5009,
+      "name" : "Manoj S 3",
+      "city" : "mangalore",
+      "state" : "karnataka",
+      "category" : "employee",
+      "managerId" : 2002,
+      "salary" : 95000.0,
+      "doj" : "2018-06-09",
+      "reports" : [ ]
+    } ]
+  }, {
+    "id" : 2003,
+    "name" : "Pankaj",
+    "city" : "hyderabad",
+    "state" : "Telangana",
+    "category" : "employee",
+    "managerId" : 789,
+    "salary" : 45000.0,
+    "doj" : "2023-06-04",
+    "reports" : [ {
+      "id" : 6000,
+      "name" : "Kumar Ravi 4",
+      "city" : "hyderabad",
+      "state" : "Telangana",
+      "category" : "employee",
+      "managerId" : 2003,
+      "salary" : 45000.0,
+      "doj" : "2023-06-04",
+      "reports" : [ ]
+    }, {
+      "id" : 6001,
+      "name" : "Shivam D 4",
+      "city" : "bangalore",
+      "state" : "karnataka",
+      "category" : "manager",
+      "managerId" : 2003,
+      "salary" : 75000.0,
+      "doj" : "2022-07-05",
+      "reports" : [ ]
+    }, {
+      "id" : 6002,
+      "name" : "A Krishna 4",
+      "city" : "hyderabad",
+      "state" : "telangana",
+      "category" : "employee",
+      "managerId" : 2003,
+      "salary" : 50000.0,
+      "doj" : "2021-03-07",
+      "reports" : [ ]
+    }, {
+      "id" : 6003,
+      "name" : "B Sreekanth 4",
+      "city" : "mumbai",
+      "state" : "Maharastra",
+      "category" : "employee",
+      "managerId" : 2003,
+      "salary" : 60000.0,
+      "doj" : "2019-08-08",
+      "reports" : [ ]
+    }, {
+      "id" : 6004,
+      "name" : "N Manoj 4",
+      "city" : "mangalore",
+      "state" : "karnataka",
+      "category" : "employee",
+      "managerId" : 2003,
+      "salary" : 95000.0,
+      "doj" : "2018-06-09",
+      "reports" : [ ]
+    }, {
+      "id" : 6005,
+      "name" : "Ravi Sagar 4",
+      "city" : "hyderabad",
+      "state" : "Telangana",
+      "category" : "employee",
+      "managerId" : 2003,
+      "salary" : 45000.0,
+      "doj" : "2023-06-04",
+      "reports" : [ ]
+    }, {
+      "id" : 6006,
+      "name" : "Patel Shivam 4",
+      "city" : "bangalore",
+      "state" : "karnataka",
+      "category" : "manager",
+      "managerId" : 2003,
+      "salary" : 75000.0,
+      "doj" : "2022-07-05",
+      "reports" : [ ]
+    }, {
+      "id" : 6007,
+      "name" : "Jai Krishna 4",
+      "city" : "hyderabad",
+      "state" : "telangana",
+      "category" : "employee",
+      "managerId" : 2003,
+      "salary" : 50000.0,
+      "doj" : "2021-03-07",
+      "reports" : [ ]
+    }, {
+      "id" : 6008,
+      "name" : "Sreekanth M 4",
+      "city" : "mumbai",
+      "state" : "Maharastra",
+      "category" : "employee",
+      "managerId" : 2003,
+      "salary" : 60000.0,
+      "doj" : "2019-08-08",
+      "reports" : [ ]
+    }, {
+      "id" : 6009,
+      "name" : "Manoj S 4",
+      "city" : "mangalore",
+      "state" : "karnataka",
+      "category" : "employee",
+      "managerId" : 2003,
+      "salary" : 95000.0,
+      "doj" : "2018-06-09",
+      "reports" : [ ]
+    } ]
+  } ]
+}
